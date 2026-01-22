@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <link rel="icon" href="icon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <title>Simple Poker Balancer</title>
+    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+                <h1>Simple Poker Balancer &#9824 &#9827 &#9829 &#9830</h1>
+            </div>
+            <img src="logo.png" alt="cardLogo" id="cardImg">
+            <h2>Distribution Percentages + Options</h2> 
+            <form>
+                <div class="forms">
+                    <div class="form">
+                        <h3>10% : 90 %</h3>
+                        <div class="optionDiv">    
+                            <button class="option" type="button" id="check10">Check - Bet</button>
+                            <button class="option" type="button" id="bet10">Bet - Check</button>
+                            <button class="option" type="button" id="call10">Call - Raise</button>
+                            <button class="option" type="button" id="raise10">Raise - Call</button>
+                            <button class="option" type="button" id="fold90">Call - Fold</button>
+                            <button class="option" type="button" id="fold10">Fold - Call</button>
+                        </div>      
+                        <label id="decision10" class="decision"></label>
+                    </div>
+                    
+                    <div class="form">
+                        <h3>20% : 80 %</h3>
+                        <div class="optionDiv">    
+                            <button class="option" type="button" id="check20">Check - Bet</button>
+                            <button class="option" type="button" id="bet20">Bet - Check</button>
+                            <button class="option" type="button" id="call20">Call - Raise</button>
+                            <button class="option" type="button" id="raise20">Raise - Call</button>
+                            <button class="option" type="button" id="fold80">Call - Fold</button>
+                            <button class="option" type="button" id="fold20">Fold - Call</button>
+                        </div>
+                        <label id="decision20" class="decision"></label>
+                    </div>
+
+                    <div class="form">
+                        <h3>30% : 70 %</h3>
+                        <div class="optionDiv">    
+                            <button class="option" type="button" id="check30">Check - Bet</button>
+                            <button class="option" type="button" id="bet30">Bet - Check</button>
+                            <button class="option" type="button" id="call30">Call - Raise</button>
+                            <button class="option" type="button" id="raise30">Raise - Call</button>
+                            <button class="option" type="button" id="fold70">Call - Fold</button>
+                            <button class="option" type="button" id="fold30">Fold - Call</button>
+                        </div>
+                        <label id="decision30" class="decision"></label>
+                    </div>
+                    <div class="form">
+                        <h3>40% : 60 %</h3>
+                        <div class="optionDiv">    
+                            <button class="option" type="button" id="check40">Check - Bet</button>
+                            <button class="option" type="button" id="bet40">Bet - Check</button>
+                            <button class="option" type="button" id="call40">Call - Raise</button>
+                            <button class="option" type="button" id="raise40">Raise - Call</button>
+                            <button class="option" type="button" id="fold60">Call - Fold</button>
+                            <button class="option" type="button" id="fold40">Fold - Call</button>
+                        </div>
+                        <label id="decision40" class="decision"></label>
+                    </div>
+                    <div class="form">
+                        <h3>50% : 50 %</h3>
+                        <div class="optionDiv">    
+                            <button class="option" type="button" id="check50">Check - Bet</button>
+                            <button class="option" type="button" id="bet50">Bet - Check</button>
+                            <button class="option" type="button" id="call50">Call - Raise</button>
+                            <button class="option" type="button" id="raise50">Raise - Call</button>
+                            <button class="option" type="button" id="fold50hi">Call - Fold</button>
+                            <button class="option" type="button" id="fold50lo">Fold - Call</button>
+                        </div>
+                        <label id="decision50" class="decision"></label>
+                    </div>
+                </div>
+                <div class="globalOptionDiv">
+                    <button class="globalOption" type="button" id="toggleMode">Mode: BAG</button>                    </button>
+                    <button class="globalOption" type="button" id="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
