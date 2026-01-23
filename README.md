@@ -2,6 +2,8 @@
 
 A lightweight decision tool for fast, unbiased poker decisions.
 
+<img width="760" height="380" alt="spb" src="https://github.com/user-attachments/assets/51ca1112-f8f6-4a35-8481-d306204347df" />
+
 ## Idea
 
 Simple Poker Balancer is a browser-based decision tool designed to remove hesitation
