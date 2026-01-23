@@ -37,6 +37,10 @@ The tool returns a decision based on that probability:
 - No frameworks
 - Hosted on GitHub Pages
 
+## Version
+
+Current version: **v1.0.0**
+
 ## Live Demo
 
 https://decide.weigl.dev
