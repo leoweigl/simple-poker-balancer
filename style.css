@@ -176,4 +176,12 @@ body::before {
     pointer-events: none;
     z-index: 0;
 }
-
+.footer {
+    margin-top: 48px;
+    padding-top: 12px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    letter-spacing: 1px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
