@@ -39,7 +39,7 @@ The tool returns a decision based on that probability:
 
 ## Version
 
-Current version: **v1.0.0**
+Current version: **v1.1.0**
 
 ## Live Demo
 
