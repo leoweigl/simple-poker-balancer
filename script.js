@@ -25,6 +25,10 @@ const columnButtons = columns.map(col =>
 let currentColumn = 0;
 let currentRow = 0;
 
+function resetRow(){
+    currentRow = 0;
+}
+
 function resetBags(){
     for (const key in bags) {
         delete bags[key];
@@ -158,10 +162,8 @@ document.addEventListener("keydown", (e) => {
     }
 
     if(["1","2","3","4","5"].includes(key)){
-        const index = parseInt(key) - 1;
-        const border = borders[index];
-        const button = document.getElementById("check" + border);
-        if (button) button.click();
+        currentColumn = parseInt(key) - 1;
+        columnButtons[currentColumn][currentRow].focus();
     }
 });
 
