@@ -185,4 +185,3 @@ for(let i in borders){
             group.key
         );
     });
-}
