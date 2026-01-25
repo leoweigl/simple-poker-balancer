@@ -183,5 +183,5 @@ for(let i in borders){
             group.option2,
             border,
             group.key
-        );
-    });
+    );} )
+}
